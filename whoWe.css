@@ -1,0 +1,43 @@
+.who{
+    padding-top: 6rem;
+
+}
+
+.textWho h2{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.textWho p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.containerWho{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.img{
+    padding: 40px;
+    border: 1px solid;
+}
+
+.textWho{
+    padding: 20px;
+}
+
+.textWho ul{
+    margin: 1rem;
+}
+
+.textWho li{
+    padding: 0.4rem;
+}
+
+
+.textWho .lead{
+    padding-top: 1rem;
+    color: green;
+}

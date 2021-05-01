@@ -1,0 +1,99 @@
+.signUp{
+    padding-top: 6rem;
+}
+
+.main-containerSignUp{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid; */
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.main-containerSignUp h1{
+    padding-top:1rem;
+    padding-bottom: 1rem;
+
+}
+
+.error{
+    display: none;
+}
+
+.inputDiv input{
+    width: 100%;
+    display: block;
+    padding: 20px 20px;
+    margin-top:1rem ;
+    background-color: #eff3f6;
+    border: none;
+}
+
+input:focus{
+    outline: 1px solid green;
+}
+
+.inputDiv .btnSign{
+    /* border: 1px solid; */
+}
+
+/* .form-check label{
+   padding-top: 2rem;
+} */
+.btnSign a{
+    background-color: green;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.form-check{
+    padding-bottom: 3rem;
+}
+
+.already-member{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.already-member h2{
+    padding-top: 1rem;
+}
+
+.already-member hr{
+    color: green;
+}
+
+.logBtn{
+    /* border: 1px solid; */
+    padding-top: 1rem;
+}
+
+.logBtn a{
+    padding: 20px 40px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.already-member p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (max-width:640px) {
+    .main-containerSignUp{
+        width: 90%;
+    }
+
+    .signUp{
+        padding-top: 6rem;
+    }
+    
+}
+
+

@@ -1,0 +1,99 @@
+.loginsec{
+    padding-top: 5rem;
+}
+
+.loginContainer .error{
+    display: none;
+}
+
+.loginContainer{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    
+}
+
+.form{
+    padding-right: 1rem;
+padding-left: 1rem;
+border: 1px solid grey; 
+padding-top: 2rem;
+padding-bottom: 2rem;  
+width: 30%;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.form p{
+    padding-bottom: 1rem;
+}
+
+.form h2{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.input-div input{
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    /* outline: 1px  solid grey; */
+    outline: none;
+    border: none;
+    background-color: #eff3f6;
+
+}
+
+
+
+input:focus{
+    outline:  2px solid #7DC855;
+}
+
+.input-div a{
+    text-decoration: none;
+    color: #7DC855;
+}
+
+.input-div .btn{
+    padding: 10px;
+    display: inline-block;
+    background-color: #7DC855;
+}
+
+.btn a{
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.Create_account{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+
+}
+
+
+.Create_account h4{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+
+.Create_account p{
+    padding-bottom: 2rem;
+}
+
+
+.btnCreate a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0095FF;
+    color: white;
+}
+

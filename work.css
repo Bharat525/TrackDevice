@@ -1,0 +1,61 @@
+.How-work{
+    padding: 5rem;
+    background-color: rgb(214, 212, 212);
+}
+
+.main-container3{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+
+.text-work{
+    padding: 2rem;
+}
+
+.text-work h3{
+    font-size: 2rem;
+
+}
+
+.text-work p{
+    padding-top: 1rem;
+}
+
+.main-container3 .row2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.row2 hr{
+    background-color: #7DC855;
+}
+
+.iteam-row h3{
+    padding: 10px;
+
+}
+
+.main-container3 a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 20px 20px;
+    color: white;
+    background-color: #7DC855;
+}
+
+
+
+@media screen and (max-width:640px) {
+
+    .row2{
+        flex-direction: column;
+    }
+    
+    .How-work{
+        padding: 2rem;
+    }
+
+}
