@@ -1,0 +1,97 @@
+.help{
+    padding-top: 5rem;
+}
+
+.main-containerHelp{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 40px;
+}
+
+.textHelp{
+    padding: 20px;
+}
+
+.textHelp h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.textHelp a{
+    text-decoration: none;
+    padding: 10px 40px;
+    border: 1px solid black;
+    color: black;
+}
+
+.textHelp a:hover{
+    background-color: #7DC855;
+
+}
+
+
+.threeDiv .gen{
+    border: 1px solid;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.threeDiv a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.threeDiv img{
+    height: 50px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.threeDiv{
+    /* border: 1px solid; */
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    
+}
+
+.gen:hover{
+     background-color: #7DC855;
+    
+}
+
+.second:hover{
+    background-color: #7DC855;
+
+}
+
+
+.secDiv{
+    padding-top:2rem ;
+}
+
+.threeDiv .second{
+
+    display: inline;
+    border: 1px solid;
+    padding: 40px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:640px) {
+    .threeDiv .second{
+        display: block;
+
+    }
+
+    .threeDiv .gen{
+        width: auto;
+    }
+    
+}
+
