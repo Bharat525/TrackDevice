@@ -1,0 +1,86 @@
+.Device_Tracker{
+    padding: 4rem;
+    background-color: #394367;
+    color: white;
+}
+
+
+.main-container5{
+    text-align: center;
+    border: 1px solid;
+}
+
+
+.main-container5 .textTmain{
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.textTmain h3{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.textT p{
+    font-size: 4rem;
+    padding: 40px;
+}
+
+.flex-containerT{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+.iteamT{
+    margin: 1rem;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.iteamT p{
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.iteamT:hover{
+    background-color: greenyellow;}
+
+.main-container5 .btn{
+   
+    font-size: 1.5rem;
+    border: 1px solid;
+    display: inline-block;
+    color: white;
+    background-color: #7DC855;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+
+
+@media screen and (max-width:640px) {
+    .flex-containerT{
+        flex-wrap: wrap;
+    }
+
+    .Device_Tracker {
+    
+        padding: 2rem;
+    }
+    
+    .main-container5 .textTmain{
+        width: auto;
+    }
+
+    .flex-containerT{
+        width: auto;
+    }
+
+
+}
