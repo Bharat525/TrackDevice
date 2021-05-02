@@ -27,6 +27,7 @@ footer a{
     margin-top: 4rem;
     height: 40px;
     margin: 5px;
+    transition:  all 1s ease-out;
 }
 
 .social h3{

@@ -12,7 +12,7 @@
     /* border: 1px solid; */
     transform: scale(0.1);
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease-out;
 }
 
 .active{
@@ -58,7 +58,8 @@
 }
 
 .iteamT:hover{
-    background-color: greenyellow;}
+    background-color: var(--Primary);
+}
 
 .main-container5 .btn{
    
@@ -66,7 +67,7 @@
     border: 1px solid;
     display: inline-block;
     color: white;
-    background-color: #7DC855;
+    background-color: var(--Primary);
     text-decoration: none;
     padding: 10px 20px;
 }

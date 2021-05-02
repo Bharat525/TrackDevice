@@ -33,7 +33,7 @@
     margin: auto;
     transform: scale(0.1);
     opacity: 0;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease-out;
 }
 
 

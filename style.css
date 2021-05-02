@@ -1,4 +1,9 @@
 /* reset */
+
+:root{
+    --Primary : #7DC855;
+}
+
 *{
 
     margin: 0;
@@ -39,6 +44,10 @@ ul li{
 
 }
 
+ul a:hover{
+    color: var(--Primary);
+}
+
 
 nav a{
     text-decoration: none;
@@ -49,7 +58,7 @@ nav a{
 
 
 nav ul :nth-last-child(2){
-    background-color: #7DC855;
+    background-color: var(--Primary);
     color: white;
     padding: 10px 20px;
     
@@ -98,7 +107,7 @@ main .main_container{
 .text a{
     padding: 20px 10px 20px 10px;
     /* border: 1px solid; */
-    background-color: #7DC855;
+    background-color: var(--Primary);
     text-decoration: none;
     color: white;
 }
