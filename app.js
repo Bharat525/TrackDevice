@@ -69,3 +69,20 @@ window.addEventListener('scroll' ,function(){
         content6.classList.remove('active')
     }
 })
+
+
+const humBurger = document.querySelector('.humbuger');
+
+console.log(humBurger);
+const links = document.querySelector('.linkLis');
+
+
+
+
+
+function humchange(e){
+    e.classList.toggle('change');
+    links.classList.toggle('activeLinks');
+
+
+}

@@ -10,7 +10,16 @@
     width: 80%;
     margin: auto;
     padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
+}
+
+
+
+.imgDiv img{
+    height: 400px;
 }
 
 .form{
@@ -32,6 +41,7 @@ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 .form h2{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    color: var(--Primary);
 }
 
 
@@ -105,8 +115,11 @@ input:focus{
 
     .loginContainer{
         width: auto;
+        flex-direction: column;
     }
-    
+    .imgDiv img{
+        height: 200px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -115,6 +128,9 @@ input:focus{
         width: auto;
     }
 
+    
+
+
+
 }
     
-}

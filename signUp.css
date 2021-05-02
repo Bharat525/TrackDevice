@@ -15,7 +15,12 @@
 .main-containerSignUp h1{
     padding-top:1rem;
     padding-bottom: 1rem;
+    color: var(--Primary);
 
+}
+
+.main-containerSignUp h4{
+    color: grey;
 }
 
 .error{
@@ -32,7 +37,7 @@
 }
 
 input:focus{
-    outline: 1px solid green;
+    outline: 2px solid var(--Primary);
 }
 
 .inputDiv .btnSign{
@@ -43,7 +48,7 @@ input:focus{
    padding-top: 2rem;
 } */
 .btnSign a{
-    background-color: green;
+    background-color: var(--Primary);
     padding: 20px 40px;
     color: white;
     text-decoration: none;
@@ -51,6 +56,10 @@ input:focus{
 
 .form-check{
     padding-bottom: 3rem;
+}
+
+.form-check input{
+    outline: none;
 }
 
 .already-member{
@@ -61,6 +70,7 @@ input:focus{
 }
 .already-member h2{
     padding-top: 1rem;
+    color: #0095FF;
 }
 
 .already-member hr{
@@ -74,7 +84,7 @@ input:focus{
 
 .logBtn a{
     padding: 20px 40px;
-    background-color: blue;
+    background-color: #0095FF;
     color: white;
     text-decoration: none;
 }
@@ -82,6 +92,7 @@ input:focus{
 .already-member p{
     padding-top: 20px;
     padding-bottom: 20px;
+    color: grey;
 }
 
 

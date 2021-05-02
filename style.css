@@ -59,10 +59,40 @@ nav a{
 
 nav ul :nth-last-child(2){
     background-color: var(--Primary);
-    color: white;
     padding: 10px 20px;
     
+    
 }
+
+
+.humbuger{
+    display: inline-block;
+    cursor: pointer;
+    display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
 
 ul .login{
     color: white;
@@ -113,11 +143,31 @@ main .main_container{
 }
 
 
+.activeLinks{
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    /* bottom: 100px; */
+    background-color: green;
+    left: 0;
+    display: block;
+
+}
+
 
 
 @media screen and (max-width:640px ) {
     nav .linkList{
         display: none;
+    }
+
+    .humbuger{
+        display: block;
     }
     
     main{
@@ -159,6 +209,14 @@ main .main_container{
      .links{
          padding-bottom: 1rem;
      }
+
+     footer a{
+         font-size: 1rem !important;
+     }
+
+     ul li {
+     margin: 4px;
+    }
 
 
 }
