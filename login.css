@@ -97,3 +97,14 @@ input:focus{
     color: white;
 }
 
+
+@media screen and (max-width : 640px) {
+    .form{
+        width: auto;
+    }
+
+    .loginContainer{
+        width: auto;
+    }
+    
+}
