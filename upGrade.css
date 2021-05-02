@@ -25,9 +25,21 @@
     line-height: 1.2;
 }
 
+
+/* Here is the main container  */
+/* add transition */
 .flex-container{
     display: flex;
+    transform: scale(0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
     
+}
+
+/* here our active class */
+.active{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .flex-iteam p{

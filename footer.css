@@ -10,7 +10,7 @@ footer{
 
 
 .social{
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 10px;
     text-align: center;
 }
@@ -24,14 +24,24 @@ footer a{
 
 
 .social img{
-    margin-top: 1rem;
+    margin-top: 4rem;
     height: 40px;
     margin: 5px;
+}
+
+.social h3{
+    color: rgb(58, 58, 58);
+    padding-bottom: 0.4rem;
 }
 
 .f-item{
     width: 20%;
     line-height: 1.5;
+}
+
+.social img:hover{
+    transform: scale(1.5);
+
 }
 
 

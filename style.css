@@ -20,8 +20,15 @@ nav{
     justify-content: space-around;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 4;
 }
 
+
+
+
+.logo img{
+    height: 60px;
+}
 
 
 ul li{
@@ -97,6 +104,8 @@ main .main_container{
 }
 
 
+
+
 @media screen and (max-width:640px ) {
     nav .linkList{
         display: none;
@@ -127,6 +136,19 @@ main .main_container{
 
      .main_container .img{
          padding-top: 2rem;
+     }
+
+     .f-item{
+         width: 100% !important;
+     }
+
+     .f-item p{
+         padding-top: 1rem;
+         padding-bottom: 1rem;
+     }
+
+     .links{
+         padding-bottom: 1rem;
      }
 
 

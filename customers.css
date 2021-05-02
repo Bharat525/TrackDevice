@@ -4,6 +4,14 @@
 
 .main-container4{
     text-align: center;
+    transform: scale(0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.active{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .text3 h2{
@@ -18,12 +26,23 @@
 
 
 .flex-containerC{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     padding: 2rem;
     width: 80%;
     margin: auto;
+    transform: scale(0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
 }
+
+
+/* here we have active 2nd class */
+.active2{
+    opacity: 1;
+    transform: scale(1);
+}
+
 
 .iteamC{
     margin: 1rem;
@@ -41,6 +60,9 @@
 .btn{
     padding: 10px;
     text-align: center;
+    transform: scale(0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
 }
 
 .btn a{
@@ -49,6 +71,12 @@
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
+    
+}
+
+.active3{
+    opacity: 1;
+    transform: scale(1);
 }
 
 
