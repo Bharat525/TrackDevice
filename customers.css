@@ -39,6 +39,7 @@
 
 /* here we have active 2nd class */
 .active2{
+    display: none;
     opacity: 1;
     transform: scale(1);
 }
